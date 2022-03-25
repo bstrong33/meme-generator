@@ -1,8 +1,9 @@
 function Header() {
     return (
-        <header>
-            <img src={require("../Images/troll.png")} alt="" height="40px"/>
-            <h2>Meme Generator</h2>
+        <header className="header">
+            <img src={require("../Images/troll.png")} alt="" className="header-image"/>
+            <h2 className="header-title">Meme Generator</h2>
+            <h4 className="header-project">React Course - Project 3</h4>
         </header>
     )
 }
